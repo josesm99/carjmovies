@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="@id/music_list">
+
+    <fragment
+        android:id="@+id/music_list"
+        android:name="carlos.com.carjmovies.ui.MovieListFragment"
+        android:label="MusicListFragment" />
+
+
+    <fragment
+        android:id="@+id/movie"
+        android:name="carlos.com.carjmovies.ui.MovieDetailFragment"
+        android:label="MovieDetailFragment" />
+
+    <action
+        android:id="@+id/action_movieListFragment_to_movieDetailFragment"
+        app:destination="@id/movie" />
+
+</navigation>
