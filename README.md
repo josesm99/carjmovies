@@ -1,6 +1,12 @@
 # carjmovies
 
-Para instalar solo tiene que ejecutar la app desde android Studio
+Para instalar sólo se tiene que ejecutar la app desde android Studio
+Se agregó test
+
+
+
+
+
 
 
 
