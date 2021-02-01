@@ -1,11 +1,9 @@
 package carlos.com.carjmovies.data.repository
 
-import android.content.Context
 import carlos.com.carjmovies.data.network.MoviesAppService
 
 class Repository(
-    private val service: MoviesAppService,
-    private val context: Context
+    private val service: MoviesAppService
 ) {
     suspend fun getMovies(page: Int) = service.getITunesMovies(page)
 }
